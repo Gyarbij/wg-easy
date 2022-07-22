@@ -25,7 +25,7 @@ module.exports = class Server {
       .use('/', express.static(path.join(__dirname, '..', 'www')))
       .use(express.json())
       .use(expressSession({
-        secret: String(Math.random()),
+        secret: String(window.crypto.getRandomValues(new Uint32Array(1))[0]),
         resave: true,
         saveUninitialized: true,
       }))
