@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/Gyarbij/wireui/actions/workflows/codeql.yml/badge.svg)](https://github.com/Gyarbij/wireui/actions/workflows/codeql.yml)
+
 # WireUI
 
 
