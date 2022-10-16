@@ -20,7 +20,7 @@ This is a security and hardening divergent fork of [wg-easy](https://github.com/
 
 ## Requirements
 
-* A host with a kernel that supports WireGuard (all modern kernels).
+* A host with a kernel that supports WireGuard (Linux v5.6 onwards and backports).
 * A docker installation on the host.
 * The ability to open a port in your router/FW.
 
